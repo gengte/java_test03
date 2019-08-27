@@ -5,6 +5,7 @@ public class XiaoFeiZhe implements Runnable {
         this.bz = bz;
     }
 
+    @Override
     public void run() {
         while (true) {
             synchronized (bz) {

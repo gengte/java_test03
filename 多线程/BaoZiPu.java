@@ -5,13 +5,14 @@ public class BaoZiPu extends Thread {
         this.bz = bz;
     }
 
+    @Override
     public void run() {
         while (true) {
             synchronized (bz) {
                 if (bz.isOkay) {
                     try {
                         bz.wait();
-                    } catch (Exception e) { 
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }
