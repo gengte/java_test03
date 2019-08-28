@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javatest03.iml" filepath="$PROJECT_DIR$/javatest03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/多线程/多线程.iml" filepath="$PROJECT_DIR$/多线程/多线程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/序列化/序列化.iml" filepath="$PROJECT_DIR$/序列化/序列化.iml" />
+      <module fileurl="file://$PROJECT_DIR$/异常处理/异常处理.iml" filepath="$PROJECT_DIR$/异常处理/异常处理.iml" />
+      <module fileurl="file://$PROJECT_DIR$/文件流/文件流.iml" filepath="$PROJECT_DIR$/文件流/文件流.iml" />
+      <module fileurl="file://$PROJECT_DIR$/斗地主/斗地主.iml" filepath="$PROJECT_DIR$/斗地主/斗地主.iml" />
+    </modules>
+  </component>
+</project>

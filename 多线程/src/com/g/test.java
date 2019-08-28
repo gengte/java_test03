@@ -1,3 +1,5 @@
+package com.g;
+
 public class test {
     public static void main(String[] args) {
         Baozi bz = new Baozi();

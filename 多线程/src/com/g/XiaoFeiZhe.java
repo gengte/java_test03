@@ -1,3 +1,5 @@
+package com.g;
+
 public class XiaoFeiZhe implements Runnable {
     private Baozi bz;
 

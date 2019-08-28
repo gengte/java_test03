@@ -1,3 +1,5 @@
+package com.g;
+
 public class BaoZiPu extends Thread {
     private Baozi bz;
 

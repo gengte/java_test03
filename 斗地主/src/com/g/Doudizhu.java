@@ -1,16 +1,17 @@
-import java.util;
-import java.util.List;
+package com.g;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 
 public class Doudizhu {
     public static void main(String[] args) {
         List<String> color = List.of("♠", "♥", "♣", "♦");
         List<String> number = List.of("2", "A", "K", "Q", "J", "10", "9", "8", "7", "6", "5", "4", "3");
 
-        HashMap<Integer, String> pokers = new HashMap<Integer, String>();
-        ArrayList<Integer> pokersIndexs = new ArrayList<Integer>();
+        HashMap<Integer, String> pokers = new HashMap<>();
+        ArrayList<Integer> pokersIndexs = new ArrayList<>();
 
         pokers.put(0, "大王");
         pokers.put(1, "小王");
@@ -54,7 +55,7 @@ public class Doudizhu {
         LookPokers("dipai", dipai, pokers);
     }
 
-    public static void LookPokers(String name, ArrayList<Integer> indexs, HashMap<Integer, String> pokers) {
+    private static void LookPokers(String name, ArrayList<Integer> indexs, HashMap<Integer, String> pokers) {
         System.out.print(name+" ");
         for (Integer i : indexs) {
             System.out.print(pokers.get(i) + " ");

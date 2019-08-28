@@ -1,3 +1,5 @@
+package com.g;
+
 public class Baozi {
     private String pi;
     private String xian;
